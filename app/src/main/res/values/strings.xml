@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EasyMedical2</string>
+    <string name="user_name">Username</string>
+    <string name="pass_word">Password</string>
+    <string name="login_button">login</string>
+    <string name="register_button">register</string>
+    <string name="username_hint">Please input Username</string>
+    <string name="password_hint">Please input Password</string>
+</resources>

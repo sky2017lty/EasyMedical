@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <SearchView
+            android:id="@+id/main_search_view"
+            android:iconifiedByDefault="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </SearchView>
+
+        <ListView
+            android:id="@+id/search_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:contentDescription="TODO"
+        android:background="@drawable/timg">
+    </ImageView>
+
+    <!--<android.support.v4.view.ViewPager-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="467dp"-->
+    <!--android:layout_weight="1">-->
+
+    <!--</android.support.v4.view.ViewPager>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10px"
+        android:background="@color/colorAccent">
+    </View>
+
+
+    <include layout="@layout/mybootm_layout"></include>
+
+</LinearLayout>

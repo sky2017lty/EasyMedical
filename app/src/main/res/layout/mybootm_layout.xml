@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        style="@style/mystyle"
+        android:id="@+id/chat"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/registration_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="挂号"
+            android:layout_gravity="center"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/mystyle"
+        android:id="@+id/contacts">
+
+        <TextView
+            android:id="@+id/symptom_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="症状自查"
+            android:layout_gravity="center"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/mystyle"
+        android:id="@+id/discover">
+
+        <TextView
+            android:id="@+id/attention_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="我的关注"
+            android:layout_gravity="center"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/mystyle"
+        android:id="@+id/me">
+
+        <TextView
+            android:id="@+id/user_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="用户"
+            android:layout_gravity="center"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</LinearLayout>
